@@ -69,6 +69,8 @@ The Unit Price and Sales columns are formatted as Currency.
 The Size column is custom formatted to include the kg unit indicator.
 The entire dataset is then converted into a Table for enhanced data management and analysis.
 
+---
+
 ### Dashboard Creation Process
 
 **1.Pivot Table Setup:**
@@ -115,3 +117,5 @@ This Coffee Sales Analysis dashboard provides a comprehensive and interactive so
 
 ## Future Enhancements
 Data Segmentation: Adding more granular segmentation, such as sales by customer region or sales per store according to the available data.
+
+---
