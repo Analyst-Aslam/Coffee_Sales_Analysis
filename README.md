@@ -1,4 +1,4 @@
-# Coffee_Sales_Analysis
+# Coffee Sales Analysis
 
 ## Overview
 
@@ -20,7 +20,9 @@ This project involves accessing the required data about the sales from different
   
 ---
 
-##Steps 
+## Steps
+
+### Data Formatting
 
 1.Data Integration from Customers and Products Sheets into Orders Sheet:
 
@@ -66,3 +68,42 @@ New columns for Coffee Type Name and Roast Type Name are created by constructing
 The Unit Price and Sales columns are formatted as Currency.
 The Size column is custom formatted to include the kg unit indicator.
 The entire dataset is then converted into a Table for enhanced data management and analysis.
+
+### Dashboard Creation Process
+1.Pivot Table Setup:
+
+A Pivot Table is created with the following configuration:
+
+Values: The Sum of Sales is placed in the Values section.
+
+Rows: The Month and Year are extracted from the Order Date and placed in the Rows section.
+
+Columns: The Coffee Type is placed in the Columns section to categorize the sales by different coffee types.
+
+2.Slicer Configuration:
+
+Slicers are added to allow for interactive filtering of the data:
+
+Roast Type slicer
+
+Size slicer
+
+Coffee Type slicer
+
+3.Timeline Setup:
+
+A Timeline is created using the Order Date field, showing data by months. This enables easy navigation and filtering of data over time.
+
+4.Line Chart Creation:
+
+A Line Chart is created based on the data from the Pivot Table to visually represent sales trends over time, with months on the x-axis and sales on the y-axis.
+
+5.Dashboard Formatting and Customization:
+
+The entire dashboard is meticulously formatted and customized to ensure a clean, user-friendly layout.
+
+Consistent color schemes, font sizes, and visual enhancements are applied for clarity and presentation.
+
+The slicers, pivot table, timeline, and line chart are arranged in a cohesive layout to create a dynamic, interactive dashboard.
+
+
