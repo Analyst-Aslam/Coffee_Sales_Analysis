@@ -107,4 +107,11 @@ Consistent color schemes, font sizes, and visual enhancements are applied for cl
 
 The slicers, pivot table, timeline, and line chart are arranged in a cohesive layout to create a dynamic, interactive dashboard.
 
+---
 
+## Conclusion
+
+This Coffee Sales Analysis dashboard provides a comprehensive and interactive solution to analyze coffee sales data based on various parameters such as coffee type, roast type, and size. With the help of the Excel Pivot Table, slicers, timeline, and line chart, users can easily explore trends and gain insights from the sales data.
+
+## Future Enhancements
+Data Segmentation: Adding more granular segmentation, such as sales by customer region or sales per store according to the available data.
